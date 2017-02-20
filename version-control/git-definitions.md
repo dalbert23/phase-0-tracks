@@ -10,3 +10,4 @@ It is the duplication of an object, so revisions can be made parallel to the ori
 Commit is a save point in git. A good commit message explains what and why something is being committed.
 * What is a merge conflict?
 A merge conflict is when two different edits were made to the same file and Git doesnt know which edit is correct. 
+Slight change
