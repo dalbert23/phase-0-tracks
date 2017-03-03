@@ -12,3 +12,10 @@
 .Circus-Skills, .Zoo-Skills, .Ice-Cream-Skills, .Coaching-Skills {
 	font-size: .8em;
 }
+#contact-info:hover{
+  color: green;
+}
+ 
+ul > li {
+	color: blue;
+}
