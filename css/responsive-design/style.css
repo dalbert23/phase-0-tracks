@@ -12,6 +12,9 @@ cite {
 #external-links ul {
   list-style-type: none;
   padding-left: 0px;
+  width: 200px;
+  display: vertical-align;
+
 }
 
 /* you're welcome to edit the
@@ -30,3 +33,21 @@ figcaption {
   font-style: italic;
   text-align: right;
 }
+body {
+  max-width: 960px;
+  min-width: 250px;
+}
+
+/*@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+}*/
+@media screen and (max-width: 800px) and (min-width: 700px)  {
+  body {
+    content:"Email:" ;
+  }
+@media screen and (min-height: 400px) {
+  body {
+    background-color: blue;
+    }
