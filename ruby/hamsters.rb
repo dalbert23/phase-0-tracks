@@ -1,5 +1,6 @@
 print "What is your hamsters name?"
 	name = gets.chomp
+	name.capitalize! 
 print "How loud are the hamsters on a scale of 1-10?"
 	noise = gets.chomp
 	noise.to_i
@@ -15,4 +16,8 @@ print "How old is the hamster in years?"
 	else
 	   puts "#{age}"	
 	end	
-
+print "Name: #{name}
+Noise level: #{noise}
+Fur Color: #{color}
+Good adoption candidate: #{adopt}
+Age: #{age}" 
