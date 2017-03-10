@@ -1,7 +1,7 @@
 print "How many employees will be processed?"
 	number = gets.chomp
 
-until number = 0 
+while number != 0
 
 	print "What is your name?"
 		name = gets.chomp
@@ -13,6 +13,18 @@ until number = 0
 		food = gets.chomp
 	print "Would you like to enroll in the company's health insurance?"
 		insurance = gets.chomp
+
+	puts "What are your allergies?"
+
+	while allergy = gets.chomp
+		case allergy
+		when "sunshine"
+			puts "Probably a vampire"
+			break
+		when "done"
+	  	break
+		end   
+	end	
 	
 	if age = true and (food = "yes" or insurance = "yes")
 		puts "Probably not a vampire"
