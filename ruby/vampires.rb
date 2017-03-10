@@ -25,7 +25,7 @@ while number != 0
 	  	break
 		end   
 	end	
-	
+
 	if age = true and (food = "yes" or insurance = "yes")
 		puts "Probably not a vampire"
 	elsif age = false and (food = "no" or insurance = "no")
@@ -41,4 +41,6 @@ while number != 0
 number = number - 1
 print number
 end	
+			
+print "Actually, never mind! What do these questions have to do with anything? Let's all be friends."
 			
