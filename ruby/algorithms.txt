@@ -1,0 +1,23 @@
+Wait until 1:59:50 am (10 seconds before daylight savings)
+ 
+Start the counter at 10 seconds
+when the counter reaches zero:
+
+-If the date is March 12th
+	move the clock ahead 1 hour to 3:00:00 am
+else
+	keep the clock at 2:00:00 am	
+  
+end
+
+
+
+
+
+
+
+- Indented instructions if they are to be repeated or if they only happen under certain - conditions
+- Counting up or down
+- Doing some steps over and over while something is true, or until some condition is met (it - is midnight, or the entire floor is mopped)
+- Using words like "if" and "otherwise" to show different possible outcomes depending on the - situation
+- Following the same procedure for each item in a list of items
